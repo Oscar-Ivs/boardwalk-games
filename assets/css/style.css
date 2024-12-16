@@ -86,3 +86,30 @@ h2 {
     background-color: lightgray;
 }
     */
+    /* Media queries 8?
+    /* Medium devices (tablets, 768px and up) */
+    @media screen and (min-width: 768px) {
+        #services .card-body { 
+            min-height: 191px;
+        }
+    }
+    /* Large devices (small laptops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        #services .card-body { 
+            min-height: auto;
+        }
+    }
+    /* XLarge devices (laptops, 1200px and up) */
+    @media screen and (min-width: 1200px) {
+        #services .card-body { 
+            min-height: 220px;
+        }
+    }
+    /* XXL devices (Large screens, 1400px and up) */
+    @media screen and (min-width: 1400px) {
+        #services .card-body { 
+            min-height: 195px;
+        }
+    }
+        
+    
